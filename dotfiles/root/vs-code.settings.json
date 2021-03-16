@@ -1,0 +1,7 @@
+{
+    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "workbench.colorCustomizations" : {
+        "terminal.background" : "#303030",
+        "terminal.border" : "#CDD3DE"
+    }
+}

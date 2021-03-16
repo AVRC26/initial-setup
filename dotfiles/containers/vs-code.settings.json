@@ -1,0 +1,7 @@
+{
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.colorCustomizations" : {
+        "terminal.background" : "#303030",
+        "terminal.border" : "#CDD3DE"
+    }
+}

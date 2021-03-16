@@ -1,0 +1,6 @@
+{
+	"icon_factory": {
+        "convert_command": "C:\\windows\\system32\\convert",
+        "convert_timeout": 5
+    }
+}

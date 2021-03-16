@@ -1,0 +1,59 @@
+{
+    "editor.minimap.showSlider": "always",
+    "workbench.startupEditor": "newUntitledFile",
+    "vsicons.dontShowNewVersionMessage": true,
+    "files.associations": {
+        "*.mdl": "php",
+        "*.view": "php",
+        "*.ctrl": "php",
+        "*.inc": "php"
+    },
+    "window.zoomLevel": 0,
+    "explorer.confirmDelete": false,
+    "php.validate.executablePath": "C:\\Users\\avrc26\\Documents\\PortableSoftwares\\php7\\php.exe",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.shell.windows": "C:\\Users\\avrc26\\Documents\\PortableSoftwares\\Git\\bin\\bash.exe",
+    "terminal.integrated.shellArgs.windows" : "--login -i",
+    "php.suggest.basic": false,
+    "java.home": "C:\\Program Files\\Java\\jdk1.8.0_201",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
+    "http.proxySupport": "on",
+    "git.confirmSync": false,
+    "python.jediEnabled": false,
+    "workbench.activityBar.visible": true,
+    "remote.SSH.configFile": "C:\\Users\\avrc26\\.ssh\\config",
+    "explorer.openEditors.visible": 0,
+    "terminal.integrated.shell.linux": "/usr/bin/bash",
+    "workbench.colorCustomizations" : {
+        // "terminal.background" : "#303030", // OneHalfDark
+        // "terminal.background" : "#262626", // Material-Monokai
+        // "statusBar.background" : "#534636",
+        "terminal.border" : "#CDD3DE"
+    },
+    "docker.containers.description": [
+        "Ports",
+        "Status"
+    ],
+    "markdownlint.customRules": [
+        "{docsmsft.docs-markdown}/markdownlint-custom-rules/rules.js"
+    ],
+    "markdownlint.config": {
+        "MD025": {
+            "front_matter_title": ""
+        }
+    },
+    "vs-kubernetes": {
+        "vs-kubernetes.kubectl-path": "C:\\Users\\avrc26\\Documents\\PortableSoftwares\\docker\\kubectl.exe",
+        // "vs-kubernetes.helm-path": "/home/centos/.vs-kubernetes/tools/helm/linux-amd64/helm",
+        // "vs-kubernetes.draft-path": "/home/centos/.vs-kubernetes/tools/draft/linux-amd64/draft"
+    },
+    "http.proxyStrictSSL": false,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorStyle": "line",
+    "docker.containers.label": "FullTag",
+    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+    "terminal.external.linuxExec": "xterm-256color",
+}

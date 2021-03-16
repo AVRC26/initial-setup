@@ -1,0 +1,37 @@
+[user]
+    name = Venkata Rakesh Anne
+    email = AVRC26@gmail.com
+
+[color]
+    ui = true
+    diff = auto
+    status = auto
+    branch = auto
+
+[color "diff"]
+    meta = 108 dim  # cyan
+    frag = 214 dim  # grey
+    old = 208       # orange
+    new = 142       # green
+
+[color "status"]
+    added = 142     # green
+    changed = 208   # orange
+    untracked = 167 # red
+    branch = 96 bold blink # purple
+
+[color "branch"]
+    current = 96 blink # purple
+    local = 172         # yellow
+    remote = 174        # light yellow
+[merge]
+    tool = vimdiff
+[diff]
+	tool = vimdiff
+[core]
+    editor = vim
+    excludesfile = ~/.gitignore_global
+[difftool]
+	prompt = false
+[alias]
+	d = difftool

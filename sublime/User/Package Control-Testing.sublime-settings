@@ -1,0 +1,43 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"AdvancedNewFile",
+		"Agila Theme",
+		"ayu",
+		"Boxy Theme",
+		"Boxy Theme Addon - Font Face",
+		"Boxy Theme Addon - Mono File Icons",
+		"Boxy Theme Addon - Widget Font Size",
+		"BracketHighlighter",
+		"DA UI",
+		"DiffView",
+		"GitGutter",
+		"GitSavvy",
+		"Glue",
+		"Package Control",
+		"PackageResourceViewer",
+		"PHP Completions Kit",
+		"PHPIntel",
+		"Seti_UI",
+		"Seti_UX",
+		"Status Bar Time",
+		"SublimeLinter",
+		"SublimeLinter-php",
+		"SummitEditor",
+		"SummitLinter",
+		"Theme - Afterglow",
+		"Theme - Alpenglow",
+		"Theme - City Lights",
+		"Theme - Monokai Pro",
+		"Theme - Sea Lion",
+		"Theme - Seti Monokai",
+		"Theme - Superflat Adventures",
+		"Tomorrow Color Schemes",
+		"Undo Close Tab"
+	]
+}

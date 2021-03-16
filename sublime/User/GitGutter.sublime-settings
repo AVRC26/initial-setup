@@ -1,0 +1,15 @@
+// GitGutter Settings - User
+{
+	"diff_popup_default_mode": "diff",
+	"show_markers_on_untracked_file": true,
+	"show_in_minimap": 10,
+    "status_bar_text": [
+        "In {{repo}} on {{branch}}{% if added_files != 0 or deleted_files != 0 or modified_files != 0 or staged_files != 0 %}*{% endif %}",
+        "{% if ahead != 0 %}, +{{ahead}}{% endif %}{% if behind != 0 %}, -{{behind}}{% endif %}",
+        "{% if compare not in ('HEAD', branch) %}, Comparing against {{compare}}{% endif %}",
+        // ", File is {{state}}",
+        "{% if deleted != 0 or inserted != 0 or modified != 0 %}, C: [ {% if deleted != 0 %}{{deleted}}- {% endif %}{% if inserted != 0 %}{{inserted}}+ {% endif %}{% if modified != 0 %}{{modified}}≠ {% endif %}]{% endif %}",
+        "{% if added_files != 0 or deleted_files != 0 or modified_files != 0 or staged_files != 0 %}, T: [ {% if deleted_files != 0 %}{{deleted_files}}- {% endif %}{% if staged_files != 0 %}{{staged_files}}+ {% endif %}{% if modified_files != 0 %}{{modified_files}}≠ {% endif %}{% if added_files != 0 %}{{added_files}}+ {% endif %}]{% endif %}"
+    ],
+}
+ 

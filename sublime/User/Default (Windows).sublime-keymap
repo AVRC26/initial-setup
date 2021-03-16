@@ -1,0 +1,51 @@
+// GitGutter Key Bindings - User
+[
+    { "keys": ["ctrl+shift+t"], "command": "reopen_last_file" },
+
+	//GitGutter
+    { "keys": ["ctrl+alt+l"], "command": "git_gutter_next_change" },
+    { "keys": ["ctrl+alt+j"], "command": "git_gutter_prev_change" },
+    { "keys": ["ctrl+alt+z"], "command": "git_gutter_revert_change" },
+    { "keys": ["ctrl+alt+d"], "command": "git_gutter_diff_popup" },
+    { "keys": ["ctrl+alt+v"], "command": "git_gutter_show_compare" },
+    // { "keys": ["ctrl+alt+h"], "command": "git_gutter_compare_head" },
+    { "keys": ["ctrl+alt+o"], "command": "git_gutter_compare_origin" },
+    // { "keys": ["ctrl+alt+c"], "command": "git_gutter_compare_commit" },
+    // { "keys": ["ctrl+alt+f"], "command": "git_gutter_compare_file_commit" },
+    { "keys": ["ctrl+alt+b"], "command": "git_gutter_compare_branch" },
+    { "keys": ["ctrl+alt+t"], "command": "git_gutter_compare_tag" },
+    
+    { "keys": ["ctrl+f"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
+    { "keys": ["ctrl+up"], "command": "swap_line_up" },
+    { "keys": ["ctrl+down"], "command": "swap_line_down" },
+    
+    //ColorPicker
+    { "keys": ["ctrl+alt+p"], "command": "color_pick" },
+
+    //Project Manager
+    {
+        "keys": ["ctrl+alt+j"],
+        "command": "project_manager", "args": {"action": "switch"}
+    },
+    
+    //GitSavvy
+    { "keys": ["ctrl+shift+i"], "command": "gs_inline_diff" },
+    { "keys": ["ctrl+q"], "command": "gs_show_status" },
+    { "keys": ["ctrl+shift+s"], "command": "gs_quick_stage" },
+    { "keys": ["ctrl+shift+m"], "command": "gs_quick_commit" },
+    { "keys": ["ctrl+shift+l"], "command": "gs_pull" },
+    { "keys": ["ctrl+shift+b"], "command": "gs_pull_from_branch" },
+    { "keys": ["ctrl+shift+u"], "command": "gs_push" },
+    { "keys": ["ctrl+shift+n"], "command": "gs_push_to_branch" },
+    { "keys": ["ctrl+shift+h"], "command": "gs_stash_save" },
+    { "keys": ["ctrl+shift+y"], "command": "gs_stash_apply" },
+    { "keys": ["ctrl+shift+c"], "command": "gs_checkout_branch" },
+    { "keys": ["ctrl+shift+\\"], "command": "gs_checkout_current_file" },
+    { "keys": ["ctrl+shift+d"], "command": "gs_diff" },
+    { "keys": ["ctrl+shift+w"], "command": "gs_show_branch" },
+    { "keys": ["ctrl+shift+z"], "command": "gs_reset" },
+    { "keys": ["ctrl+shift+o"], "command": "gs_show_tags" },
+    { "keys": ["ctrl+shift+g"], "command": "gs_log_graph" },
+    { "keys": ["ctrl+shift+x"], "command": "gs_revert_commit" },
+    { "keys": ["ctrl+shift+r"], "command": "gs_log" },
+]

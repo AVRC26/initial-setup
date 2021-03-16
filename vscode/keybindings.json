@@ -1,0 +1,108 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+alt+.",
+        "command": "workbench.action.terminal.focusNext"
+    },
+    {
+        "key": "ctrl+alt+,",
+        "command": "workbench.action.terminal.focusPrevious"
+    },
+    {
+        "key": "ctrl+`",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "ctrl+`",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+d ctrl+shift+k",
+        "command": "workbench.view.extension.dockerView"
+    },
+    {
+        "key": "ctrl+shift+b ctrl+shift+p",
+        "command": "workbench.view.extension.browser-preview"
+    },
+    {
+        "key": "ctrl+shift+j ctrl+shift+m",
+        "command": "workbench.view.extension.project-manager"
+    },
+    {
+        "key": "ctrl+shift+s ctrl+shift+q",
+        "command": "workbench.view.extension.SQLToolsExplorer"
+    },
+    {
+        "key": "ctrl+shift+r ctrl+shift+e",
+        "command": "workbench.view.remote"
+    },
+    {
+        "key": "ctrl+shift+s ctrl+shift+t",
+        "command": "workbench.view.extension.sftp"
+    },
+    {
+        "key": "ctrl+g ctrl+l",
+        "command": "git.pull"
+    },
+    {
+        "key": "ctrl+g ctrl+f",
+        "command": "git.pullFrom"
+    },
+    {
+        "key": "ctrl+g ctrl+h",
+        "command": "git.push"
+    },
+    {
+        "key": "ctrl+g ctrl+u",
+        "command": "git.pushTo"
+    },
+    {
+        "key": "ctrl+g ctrl+c",
+        "command": "git.checkout"
+    },
+    {
+        "key": "ctrl+g ctrl+t",
+        "command": "git.fetch"
+    },
+    {
+        "key": "ctrl+g ctrl+o",
+        "command": "git.openChange"
+    },
+    {
+        "key": "ctrl+g ctrl+y",
+        "command": "git.sync"
+    },
+    {
+        "key": "ctrl+g ctrl+g",
+        "command": "git.commitStaged"
+    },
+    {
+        "key": "ctrl+g ctrl+s",
+        "command": "git.stage"
+    },
+    { 
+        "key": "ctrl+shift+g",          
+        "command": "workbench.view.scm" 
+    },
+    {
+        "key": "ctrl+down",
+        "command": "editor.action.moveLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+down",
+        "command": "-editor.action.moveLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+up",
+        "command": "editor.action.moveLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+up",
+        "command": "-editor.action.moveLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    }
+]
