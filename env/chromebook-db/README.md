@@ -6,7 +6,7 @@
 - `sudo vi /etc/hosts`
 
 ## **Customize Colors**
-- [AVRC26's init-setup](https://github.com/AVRC26/init-setup/blob/InDev/dotfiles/README.md)
+- [AVRC26's initial-setup](https://github.com/AVRC26/initial-setup/blob/InDev/dotfiles/README.md)
 
 ## **Install Brave Browser**
 
@@ -49,7 +49,7 @@
 
 
 ### **VS Code Setup***
-- [AVRC26's init-setup](https://github.com/AVRC26/init-setup/tree/InDev/VSCode/README.md)
+- [AVRC26's initial-setup](https://github.com/AVRC26/initial-setup/tree/InDev/VSCode/README.md)
 
 
 ## **Install Docker**

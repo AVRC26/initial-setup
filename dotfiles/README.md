@@ -3,17 +3,17 @@
 ## USER
 * #### monokai theme
 
-        git clone https://github.com/AVRC26/init-setup.git ~/init-setup
+        git clone https://github.com/AVRC26/initial-setup.git ~/initial-setup
 
-        mv ~/init-setup/dotfiles/user/.vim ~
+        mv ~/initial-setup/dotfiles/user/.vim ~
         
-        mv ~/init-setup/dotfiles/user/.vimrc ~
+        mv ~/initial-setup/dotfiles/user/.vimrc ~
 
-        mv ~/init-setup/dotfiles/user/.bashrc ~
+        mv ~/initial-setup/dotfiles/user/.bashrc ~
 
-        mv ~/init-setup/dotfiles/user/.gitconfig ~
+        mv ~/initial-setup/dotfiles/user/.gitconfig ~
 
-        mv ~/init-setup/dotfiles/user/.dircolors/dircolors.monokai ~/.dircolors.monokai
+        mv ~/initial-setup/dotfiles/user/.dircolors/dircolors.monokai ~/.dircolors.monokai
 
         git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
@@ -23,13 +23,13 @@
 
         git clone https://github.com/magicmonty/bash-git-prompt.git ~/.bash-git-prompt --depth=1
 
-        mv ~/init-setup/dotfiles/user/.git-prompt-colors.sh ~/.git-prompt-colors.sh
+        mv ~/initial-setup/dotfiles/user/.git-prompt-colors.sh ~/.git-prompt-colors.sh
 
 
 * #### Install tmux
         sudo yum install -y tmux
 
-        cp -r ~/init-setup/dotfiles/user/.tmux* ~
+        cp -r ~/initial-setup/dotfiles/user/.tmux* ~
 
         git clone https://github.com/tmux-plugins/tpm.git ~/.tmux/plugins/tpm
 
@@ -42,16 +42,16 @@
 ## ROOT
 * #### gruvbox theme
 
-        sudo mv ~/init-setup/dotfiles/root/.vim /root/.vim/
+        sudo mv ~/initial-setup/dotfiles/root/.vim /root/.vim/
         
-        sudo mv ~/init-setup/dotfiles/root/.vimrc /root/.vimrc
+        sudo mv ~/initial-setup/dotfiles/root/.vimrc /root/.vimrc
 
-        sudo sed -i 's/avrc26/<USERNAME>/g' ~/init-setup/dotfiles/root/.bashrc        
-        sudo mv ~/init-setup/dotfiles/root/.bashrc /root/.bashrc
+        sudo sed -i 's/avrc26/<USERNAME>/g' ~/initial-setup/dotfiles/root/.bashrc        
+        sudo mv ~/initial-setup/dotfiles/root/.bashrc /root/.bashrc
 
-        sudo mv ~/init-setup/dotfiles/root/.gitconfig /root/.gitconfig
+        sudo mv ~/initial-setup/dotfiles/root/.gitconfig /root/.gitconfig
 
-        sudo mv ~/init-setup/dotfiles/root/.dircolors/dircolors.gruvbox_darkhard /root/.dircolors.gruvbox_darkhard
+        sudo mv ~/initial-setup/dotfiles/root/.dircolors/dircolors.gruvbox_darkhard /root/.dircolors.gruvbox_darkhard
 
         sudo git clone https://github.com/VundleVim/Vundle.vim.git /root/.vim/bundle/Vundle.vim
 
@@ -62,11 +62,11 @@
 
         sudo git clone https://github.com/magicmonty/bash-git-prompt.git /root/.bash-git-prompt --depth=1
 
-        sudo mv ~/init-setup/dotfiles/root/.git-prompt-colors.sh /root/.git-prompt-colors.sh
+        sudo mv ~/initial-setup/dotfiles/root/.git-prompt-colors.sh /root/.git-prompt-colors.sh
 
 * #### Install tmux (not recommended for root)
 
-        mv init-setup/dotfiles/root/.tmux* ~
+        mv initial-setup/dotfiles/root/.tmux* ~
 
         git clone https://github.com/tmux-plugins/tpm.git ~/.tmux/plugins/tpm
 
@@ -79,17 +79,17 @@
 ## VS Code - GIT Bash
 * #### default theme
 
-        mv ~/init-setup/dotfiles/win/.vim ~/.vim/
+        mv ~/initial-setup/dotfiles/win/.vim ~/.vim/
         
-        mv ~/init-setup/dotfiles/win/.vimrc ~/.vimrc
+        mv ~/initial-setup/dotfiles/win/.vimrc ~/.vimrc
 
-        mv ~/init-setup/dotfiles/win/.bashrc ~/.bashrc
+        mv ~/initial-setup/dotfiles/win/.bashrc ~/.bashrc
 
-        mv ~/init-setup/dotfiles/win/.gitconfig ~/.gitconfig
+        mv ~/initial-setup/dotfiles/win/.gitconfig ~/.gitconfig
 
-        mv ~/init-setup/dotfiles/win/.dircolors/dircolors.default /root/.dircolors.default
+        mv ~/initial-setup/dotfiles/win/.dircolors/dircolors.default /root/.dircolors.default
 
-        mv ~/init-setup/dotfiles/root/vs-code.settings.json ~/.vscode-server/data/Machine/settings.json
+        mv ~/initial-setup/dotfiles/root/vs-code.settings.json ~/.vscode-server/data/Machine/settings.json
 
         git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
@@ -100,10 +100,10 @@
 
         git clone https://github.com/magicmonty/bash-git-prompt.git ~/.bash-git-prompt --depth=1
 
-        mv ~/init-setup/dotfiles/win/.git-prompt-colors.sh ~/.git-prompt-colors.sh
+        mv ~/initial-setup/dotfiles/win/.git-prompt-colors.sh ~/.git-prompt-colors.sh
 
 * #### default git-prompt
-        mv ~/init-setup/dotfiles/win/git-prompt.sh ~/.git-prompt.sh 
+        mv ~/initial-setup/dotfiles/win/git-prompt.sh ~/.git-prompt.sh 
 
 * #### optional base16
         git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
@@ -132,21 +132,21 @@
 
 * #### **Get Dependencies**    
     ```bash
-    git clone https://github.com/AVRC26/init-setup.git ~/init-setup
+    git clone https://github.com/AVRC26/initial-setup.git ~/initial-setup
     
-    mv ~/init-setup/dotfiles/containers/.vim ~
+    mv ~/initial-setup/dotfiles/containers/.vim ~
     
-    mv ~/init-setup/dotfiles/containers/.vimrc ~
+    mv ~/initial-setup/dotfiles/containers/.vimrc ~
     
-    mv ~/init-setup/dotfiles/containers/.bashrc ~
+    mv ~/initial-setup/dotfiles/containers/.bashrc ~
     
-    mv ~/init-setup/dotfiles/containers/.gitconfig ~
+    mv ~/initial-setup/dotfiles/containers/.gitconfig ~
     
-    mv ~/init-setup/dotfiles/containers/.dircolors/dircolors.onehalfdark ~/.dircolors.onehalfdark
+    mv ~/initial-setup/dotfiles/containers/.dircolors/dircolors.onehalfdark ~/.dircolors.onehalfdark
     
     mkdir -p  ~/.vscode-server/data/Machine/
     
-    mv ~/init-setup/dotfiles/containers/vs-code.settings.json ~/.vscode-server/data/Machine/settings.json
+    mv ~/initial-setup/dotfiles/containers/vs-code.settings.json ~/.vscode-server/data/Machine/settings.json
     
     git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
     
@@ -157,7 +157,7 @@
 
         git clone https://github.com/magicmonty/bash-git-prompt.git ~/.bash-git-prompt --depth=1
 
-        mv ~/init-setup/dotfiles/containers/.git-prompt-colors.sh ~/.git-prompt-colors.sh
+        mv ~/initial-setup/dotfiles/containers/.git-prompt-colors.sh ~/.git-prompt-colors.sh
 
 
 PS: 
