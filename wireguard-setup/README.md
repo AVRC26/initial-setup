@@ -4,4 +4,6 @@
 
 -   `git clone https://github.com/AVRC26/initial-setup.git ~/initial-setup`
 
--   `~/initial-setup/wireguard-install.sh`
+-   `chmod +x ~/initial-setup/wireguard-setup/wireguard-install.sh`
+
+-   `sh ~/initial-setup/wireguard-setup/wireguard-install.sh`
