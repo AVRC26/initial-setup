@@ -48,7 +48,7 @@
 
           sudo mv ~/initial-setup/dotfiles/root/.vimrc /root/.vimrc
 
-          sudo sed -i 's/avrc26/<USERNAME>/g' ~/initial-setup/dotfiles/root/.bashrc
+          sudo sed -i 's/service/<USERNAME>/g' ~/initial-setup/dotfiles/root/.bashrc
           sudo mv ~/initial-setup/dotfiles/root/.bashrc /root/.bashrc
 
           sudo mv ~/initial-setup/dotfiles/root/.gitconfig /root/.gitconfig
