@@ -21,15 +21,15 @@ else
     echo "Cloned initial-setup!";
 fi
 
-cp -r /home/$USERNAME/initial-setup/dotfiles/user/.vim /home/$USERNAME
+runuser -l $USERNAME -c "cp -r /home/$USERNAME/initial-setup/dotfiles/user/.vim /home/$USERNAME"
 
-cp -r /home/$USERNAME/initial-setup/dotfiles/user/.vimrc /home/$USERNAME
+runuser -l $USERNAME -c "cp -r /home/$USERNAME/initial-setup/dotfiles/user/.vimrc /home/$USERNAME"
 
-cp -r /home/$USERNAME/initial-setup/dotfiles/user/.bashrc /home/$USERNAME
+runuser -l $USERNAME -c "cp -r /home/$USERNAME/initial-setup/dotfiles/user/.bashrc /home/$USERNAME"
 
-cp -r /home/$USERNAME/initial-setup/dotfiles/user/.gitconfig /home/$USERNAME
+runuser -l $USERNAME -c "cp -r /home/$USERNAME/initial-setup/dotfiles/user/.gitconfig /home/$USERNAME"
 
-cp -r /home/$USERNAME/initial-setup/dotfiles/user/.dircolors/dircolors.monokai /home/$USERNAME/.dircolors.monokai
+runuser -l $USERNAME -c "cp -r /home/$USERNAME/initial-setup/dotfiles/user/.dircolors/dircolors.monokai /home/$USERNAME/.dircolors.monokai"
 
 if [ -d /home/$USERNAME/.vim/bundle/Vundle.vim ]; then
     echo "Vundle.vim/ already exists.";
@@ -47,7 +47,7 @@ else
     echo "Cloned .bash-git-prompt!";
 fi
 
-cp -r /home/$USERNAME/initial-setup/dotfiles/user/.git-prompt-colors.sh /home/$USERNAME/.git-prompt-colors.sh
+runuser -l $USERNAME -c "cp -r /home/$USERNAME/initial-setup/dotfiles/user/.git-prompt-colors.sh /home/$USERNAME/.git-prompt-colors.sh"
 
 echo "Setup for $USERNAME is complete!"
 echo -e "__________________\n\n\n"
